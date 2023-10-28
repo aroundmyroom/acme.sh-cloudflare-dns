@@ -1,5 +1,9 @@
 # acme.sh-cloudflare-dns
 Acme.sh renewal script on my proxmox cluster with cloudflare API DNS
+with this a acme_challenge is auto-added to your DNS so that you do not need open ports or add it yourself.
+if you are not sure if cloudflare and acme.sh working fine, its hard to debug.
+
+I first added the Acme to my Proxmox installation and after that was working I was confident enough to use it in my shell.
 
 I had acme installed on my proxmox host (I have a cluster of 2 machines)
 my domain is hosted at cloudflare. I created an token and got the ID for my account
