@@ -19,7 +19,9 @@ all the time.
 in Shell I wrote:
 
 export CF_Zone_ID="xxxxx"
+
 export CF_Token="xxxxxx"
+
 and than started the new start line
 
 ./acme.sh --issue -d domain.ltd.net --dns dns_cf -d *.domain.ltd.net
